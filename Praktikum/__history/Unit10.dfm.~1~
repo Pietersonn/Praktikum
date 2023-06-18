@@ -1,0 +1,126 @@
+object Form10: TForm10
+  Left = 0
+  Top = 0
+  Caption = 'Form10'
+  ClientHeight = 678
+  ClientWidth = 1105
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 8
+    Top = 32
+    Width = 126
+    Height = 21
+    Caption = 'Tahun Angkatan'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -18
+    Font.Name = 'Cambria'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 72
+    Width = 126
+    Height = 21
+    Caption = 'Tahun Angkatan'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -18
+    Font.Name = 'Cambria'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 112
+    Width = 126
+    Height = 21
+    Caption = 'Tahun Angkatan'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -18
+    Font.Name = 'Cambria'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 176
+    Top = 34
+    Width = 201
+    Height = 23
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 176
+    Top = 74
+    Width = 201
+    Height = 23
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 176
+    Top = 114
+    Width = 201
+    Height = 23
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 32
+    Top = 192
+    Width = 137
+    Height = 33
+    Caption = 'ADD DATA'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Cambria Math'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 192
+    Top = 192
+    Width = 137
+    Height = 33
+    Caption = 'VIEW GRAFIK'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Cambria Math'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+  object strngrd1: TStringGrid
+    Left = 416
+    Top = 32
+    Width = 617
+    Height = 120
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Cambria'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Chart1: TChart
+    Left = 288
+    Top = 312
+    Width = 400
+    Height = 250
+    Title.Text.Strings = (
+      'TChart')
+    TabOrder = 6
+    DefaultCanvas = 'TGDIPlusCanvas'
+    ColorPaletteIndex = 13
+  end
+end

@@ -1,0 +1,60 @@
+unit Unit7;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Unit4, Unit6, Praktikum1, Unit2, Unit3,
+  Vcl.Imaging.jpeg, Vcl.ExtCtrls ;
+
+type
+  TMenu = class(TForm)
+    MainMenu1: TMainMenu;
+    FI1: TMenuItem;
+    LATIHAN1: TMenuItem;
+    LATIHAN2: TMenuItem;
+    LAPORAN1: TMenuItem;
+    OPEN1: TMenuItem;
+    Form11: TMenuItem;
+    Form12: TMenuItem;
+    Kalkulator1: TMenuItem;
+    Kondisional: TMenuItem;
+    Image1: TImage;
+    procedure Kalkulator1Click(Sender: TObject);
+    procedure KondisionalClick(Sender: TObject);
+    procedure Form11Click(Sender: TObject);
+    procedure Form12Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Menu: TMenu;
+
+implementation
+
+{$R *.dfm}
+
+procedure TMenu.Form11Click(Sender: TObject);
+begin
+form1.show;
+end;
+
+procedure TMenu.Form12Click(Sender: TObject);
+begin
+biodata.show;
+end;
+
+procedure TMenu.Kalkulator1Click(Sender: TObject);
+begin
+Fkalkulator.show;
+end;
+
+procedure TMenu.KondisionalClick(Sender: TObject);
+begin
+Fkondisional.Show;
+end;
+
+end.

@@ -1,0 +1,313 @@
+object Form2: TForm2
+  Left = 192
+  Top = 117
+  Width = 521
+  Height = 419
+  Caption = 'Form2'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 72
+    Top = 64
+    Width = 46
+    Height = 23
+    Caption = 'NPM'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label2: TLabel
+    Left = 72
+    Top = 104
+    Width = 66
+    Height = 23
+    Caption = 'NAMA '
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label3: TLabel
+    Left = 72
+    Top = 144
+    Width = 53
+    Height = 23
+    Caption = 'TELP'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label4: TLabel
+    Left = 72
+    Top = 184
+    Width = 26
+    Height = 23
+    Caption = 'JK'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label5: TLabel
+    Left = 72
+    Top = 216
+    Width = 84
+    Height = 23
+    Caption = 'Tgl Lahir'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label6: TLabel
+    Left = 384
+    Top = 64
+    Width = 5
+    Height = 23
+    Caption = ':'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label7: TLabel
+    Left = 384
+    Top = 104
+    Width = 5
+    Height = 23
+    Caption = ':'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label8: TLabel
+    Left = 384
+    Top = 144
+    Width = 5
+    Height = 23
+    Caption = ':'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label9: TLabel
+    Left = 384
+    Top = 184
+    Width = 5
+    Height = 23
+    Caption = ':'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label10: TLabel
+    Left = 384
+    Top = 216
+    Width = 5
+    Height = 23
+    Caption = ':'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label11: TLabel
+    Left = 400
+    Top = 64
+    Width = 6
+    Height = 23
+    Caption = '-'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label12: TLabel
+    Left = 400
+    Top = 104
+    Width = 6
+    Height = 23
+    Caption = '-'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label13: TLabel
+    Left = 400
+    Top = 144
+    Width = 6
+    Height = 23
+    Caption = '-'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label14: TLabel
+    Left = 400
+    Top = 184
+    Width = 6
+    Height = 23
+    Caption = '-'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label15: TLabel
+    Left = 400
+    Top = 216
+    Width = 6
+    Height = 23
+    Caption = '-'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Century'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Edit1: TEdit
+    Left = 216
+    Top = 64
+    Width = 145
+    Height = 21
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 216
+    Top = 104
+    Width = 145
+    Height = 21
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 216
+    Top = 144
+    Width = 145
+    Height = 21
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 72
+    Top = 296
+    Width = 121
+    Height = 33
+    Caption = '"BERSIHKAN"'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object ComboBox1: TComboBox
+    Left = 216
+    Top = 184
+    Width = 145
+    Height = 21
+    ItemHeight = 13
+    TabOrder = 4
+    Items.Strings = (
+      'Laki-laki'
+      'Perempuan')
+  end
+  object DateTimePicker1: TDateTimePicker
+    Left = 216
+    Top = 216
+    Width = 145
+    Height = 22
+    Date = 45057.514865266200000000
+    Time = 45057.514865266200000000
+    DateFormat = dfLong
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Button2: TButton
+    Left = 232
+    Top = 296
+    Width = 129
+    Height = 33
+    Caption = '"TAMPILKAN DATA"'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Century'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 6
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 384
+    Top = 296
+    Width = 57
+    Height = 33
+    Caption = 'OK'
+    TabOrder = 7
+    OnClick = Button3Click
+  end
+end

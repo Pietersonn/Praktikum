@@ -1,0 +1,51 @@
+unit Unit10;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, VclTee.TeeGDIPlus,
+  VCLTee.TeEngine, Vcl.ExtCtrls, VCLTee.TeeProcs, VCLTee.Chart, Vcl.Grids;
+
+type
+  TForm10 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Edit1: TEdit;
+    Button1: TButton;
+    Button2: TButton;
+    strngrd1: TStringGrid;
+    Chart1: TChart;
+    ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form10: TForm10;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm10.FormCreate(Sender: TObject);
+begin
+strngrd1.RowCount := 1;
+strngrd1.ColCount:= 4;
+strngrd1.Cells[0,0]:= 'NO';
+strngrd1.Cells[1,0]:= 'JUMLAH TERDAFTAR';
+strngrd1.Cells[2,0]:= 'FAKULTAS';
+strngrd1.Cells[3,0]:= 'TAHUN ANGKATAN';
+
+strngrd1.ColWidths[0]:= 20;
+strngrd1.ColWidths[1]:= 130;
+strngrd1.ColWidths[2]:= 150;
+strngrd1.ColWidths[3]:= 150;
+end;
+
+end.

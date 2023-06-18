@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 192
+  Top = 117
+  Width = 458
+  Height = 321
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 88
+    Top = 72
+    Width = 262
+    Height = 25
+    Caption = 'Masukkan Nama Anda :'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clTeal
+    Font.Height = -21
+    Font.Name = 'Century Schoolbook'
+    Font.Style = [fsBold, fsItalic, fsUnderline]
+    ParentFont = False
+    Transparent = True
+  end
+  object Edit1: TEdit
+    Left = 88
+    Top = 112
+    Width = 257
+    Height = 29
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnChange = Edit1Change
+  end
+  object Button1: TButton
+    Left = 384
+    Top = 112
+    Width = 33
+    Height = 33
+    Caption = 'OK'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Panel1: TPanel
+    Left = 88
+    Top = 168
+    Width = 257
+    Height = 33
+    Color = clActiveBorder
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 2
+  end
+end

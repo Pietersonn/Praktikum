@@ -1,0 +1,44 @@
+unit Pertemuan2;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TKalkulator = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    enilai1: TEdit;
+    enilai2: TEdit;
+    Edit3: TEdit;
+    Button1: TButton;
+    hasil: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure hasilClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Kalkulator: TKalkulator;
+
+implementation
+
+{$R *.dfm}
+
+procedure TKalkulator.Button1Click(Sender: TObject);
+begin
+edit3.text:=IntToStr(StrToInt(enilai1.Text)+strtoint(enilai2.text));
+end;
+
+procedure TKalkulator.hasilClick(Sender: TObject);
+begin
+close;
+end;
+
+end.
